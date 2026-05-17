@@ -6,7 +6,7 @@ This document is a single writeup of my project history across local repositorie
 
 ## Snapshot
 
-I am currently a student at SNHU, but most of my growth has come from building outside class across a wide range of technologies: Rust, C++, C, TypeScript, Go, Python, Unreal Engine, Vulkan, JUCE, Slint, Tauri, Next.js, Clerk, SpacetimeDB, Bevy, raylib, and Matrix. Across these projects, a few patterns show up repeatedly:
+I am currently a student at SNHU, but most of my growth has come from building outside class across a wide range of technologies: Rust, C++, C, TypeScript, Go, Python, Unreal Engine, Vulkan, JUCE, Slint, Tauri, Next.js, Clerk, SpacetimeDB, Bevy, raylib, Slang, Strudel, and Matrix. Across these projects, a few patterns show up repeatedly:
 
 - I gravitate toward local-first and offline-capable tools. (mostly because servers cost money and I dont want to take up my computer's resources)
 - I like systems that are realtime, interactive, or performance-sensitive.
@@ -124,8 +124,20 @@ I am currently a student at SNHU, but most of my growth has come from building o
 - March 2026 - [steam-launch-optimizer](https://github.com/Azteriisk/steam-launch-optimizer)
   A Python scripting project for Linux game launch optimization. Main learning: automation for real user pain points, scripting repeatable fixes, and documenting operational workflows that many people do manually.
 
+- April 2026 - [stage](https://github.com/Azteriisk/stage)
+  A browser-based live-coding environment linking a Strudel music runtime to a GLSL shader runtime through a reactive binding layer. Main learning: cross-domain runtime synchronization, reactive systems design, and high-performance browser rendering for audiovisual synthesis.
+
+- April 2026 - [sslb](https://github.com/Azteriisk/sslb)
+  A turing-complete shader transpiler with a high-precision interactive 3D runner. Main learning: language transpilation, compiler theory applied to shaders, and designing flexible runners for modern high-density visual engines.
+
 - April 2026 - [raylib-sim-tests](https://github.com/Azteriisk/raylib-sim-tests)
   A C and raylib cellular automata sandbox with data-driven block definitions, runtime tuning, custom input bindings, and specialized growth/merge behavior. Main learning: simulation architecture in plain C, data-driven behavior registration, rendering discipline without heavy frameworks, and keeping a graphics/simulation codebase modular.
+
+- April 2026 - [RCWExpertHauling](https://github.com/Azteriisk/RCWExpertHauling)
+  A premium commercial website for a local debris hauling service. Built on Next.js with unified Royal Blue and dark mode themes, it features an infinite-scrolling service gallery and local SEO location mapping. Main learning: optimizing client-facing pre-rendering architectures, mobile-first design system scaling, and production deployment pipeline engineering.
+
+- May 2026 - [CareerReport (resume-builder)](https://github.com/Azteriisk/CareerReport)
+  A full-stack professional networking platform and high-fidelity resume builder. Features a horizontal scrollWidth-calculated pagination engine, an invisible structured ATS & AI metadata injection layer (with double-layer plain text and JSON-LD), custom Next.js self-hosted font bundling, and a Google Gemini API zero-cold-start PDF parser, backed by Clerk authenticated PostgreSQL Supabase Row-Level Security and a collaborative social suite (posts, comments, quote reposts, follower mechanics, and real-time private direct messages). Main learning: resolving complex web-to-PDF print styling boundaries using layout-affecting zoom and absolute scaling mechanics, mapping cross-platform authenticated JWT tokens to granular PostgreSQL RLS rules, and maintaining real-time reactive data consistency across high-density interactive views.
 
 ## Academic Work at SNHU
 
@@ -161,9 +173,14 @@ Languages I have used in meaningful projects:
 - C# / .NET
 - Lua
 - Odin
+- Slang
+- GLSL
 
 Frameworks, engines, and tools that recur across the portfolio:
 - Next.js, React, Vite, Tailwind
+- Supabase (PostgreSQL + RLS)
+- Google Gemini API
+- Bun
 - Tauri
 - Slint
 - JUCE
@@ -172,6 +189,7 @@ Frameworks, engines, and tools that recur across the portfolio:
 - raylib
 - wgpu / pixels / winit
 - Unreal Engine 5
+- Strudel
 - Clerk
 - SpacetimeDB
 - Matrix SDK
